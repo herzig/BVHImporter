@@ -1,4 +1,7 @@
 # BVHImporter
+
+Note: if you're looking for a Three.js BVH Loader, there is a modified version of this one included the official Three.js examples loader collection: [http://threejs.org/examples/?q=loader#webgl_loader_bvh](http://threejs.org/examples/?q=loader#webgl_loader_bvh)
+
 JavaScript parser for BVH files and converter to Three.js Bones.
 
 `BVHImport.readBvh(lines)` parses a bvh file and creates basic tech-agnostic representation of the bvh nodes including motion data.
